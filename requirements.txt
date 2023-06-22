@@ -1,0 +1,6 @@
+streamlit
+pytesseract
+Pillow
+pyttsx3
+googletrans
+
