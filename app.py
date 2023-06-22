@@ -4,9 +4,6 @@ import pytesseract
 import pyttsx3
 from googletrans import Translator
 
-# Set Tesseract OCR path
-pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract.exe'
-
 # Function to convert image to text and speech
 def convert_image_to_speech(image):
     # Open the image
@@ -55,3 +52,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
